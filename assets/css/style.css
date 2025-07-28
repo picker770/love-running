@@ -27,6 +27,10 @@ header {
 
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main  */
 main {
     background-color: lightblue;
@@ -37,5 +41,5 @@ main {
 /* Footer  */
 footer {
     background-color: orange;
-    f
+
 }
