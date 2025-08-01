@@ -222,6 +222,7 @@ hr {
     background-position: 75%;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
+    
 }
 
 #signup-form>h2 {
@@ -233,6 +234,7 @@ hr {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    
 }
 
 .text-input {
@@ -243,7 +245,10 @@ hr {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
+    
 }
+
+
 
 .radio-buttons {
     width: 100%;
@@ -259,6 +264,8 @@ hr {
     color: #fafafa;
     border-radius: 2px;
 }
+
+
 
 
 /* Footer  */
@@ -351,6 +358,28 @@ hr {
     /* Galley  */
     #photos {
         column-count: 3;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
